@@ -10,7 +10,7 @@ var fileStoreOptions = {};
 
 
 const {
-  PORT = 5000,
+  PORT = 3000,
   NODE_ENV = "development",
 
   SESS_NAVE = "sid",
