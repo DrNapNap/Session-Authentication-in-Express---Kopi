@@ -61,7 +61,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-
 const redirectLogin = (req, res, next) => {
   if (!req.session.userId) {
     res.redirect("/login");
